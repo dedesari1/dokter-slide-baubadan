@@ -1,0 +1,58 @@
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+       /* corousel */
+
+       .gridDokter{
+        display: grid;
+        justify-items: center;
+        gap: 8px;
+       }
+    
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        background-color: #1ebc94;
+        opacity: 0.4;
+    }
+
+    
+    .hideDokter1, .hideDokter2{
+        display: none;
+    }
+    
+    .classHide{
+        text-align: center;
+    }
+    
+
+    
+        .noneHide, .noneHide2, .noneHide3, .hideDokter4, .hideDokter1, .dokJs{
+            display: none;
+        }
+    
+    /* akhir corousel */
+
+    .text{
+        font-size: 18px;
+        line-height: 2.2;
+        font-weight: bold;
+        color: #36344D;
+    }
+
+   
+
+@media(max-width: 768px){
+
+    /* awal corousel */
+    .carousel-inner{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* akhir corousel */
+
+
+}
